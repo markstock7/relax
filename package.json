@@ -1,0 +1,17 @@
+{
+  "name": "relax",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "dev": "cd packages/demos && npm run dev"
+  },
+ "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
